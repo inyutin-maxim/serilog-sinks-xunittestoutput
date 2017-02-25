@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Serilog.Sinks.XunitTestOutput</id>
+    <version>$version$</version>
+    <authors>dave timmins, Ilya Margolin</authors>
+    <projectUrl>https://github.com/marhoily/serilog-sinks-xunittestoutput</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Capture serilog log events to xUnit output</summary>
+    <tags>serilog xunit ITestOutputHelper</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Serilog.Sinks.XunitTestOutput.dll" target="lib\net452\Serilog.Sinks.XunitTestOutput.dll" />
+    <file src="bin\Release\Serilog.Sinks.XunitTestOutput.XML" target="lib\net452\Serilog.Sinks.XunitTestOutput.XML" />
+  </files>
+</package>

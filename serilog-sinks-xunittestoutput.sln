@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Sinks.XunitTestOutput", "src\Serilog.Sinks.XunitTestOutput\Serilog.Sinks.XunitTestOutput.csproj", "{76555941-5821-458C-9153-E418F482139E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "playground", "src\playground\playground.csproj", "{F1F8DCE1-B579-464A-873A-59E0695042BE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7131471-1AAB-4084-9029-8C3558B510F5}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,6 @@ Global
 		{76555941-5821-458C-9153-E418F482139E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76555941-5821-458C-9153-E418F482139E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76555941-5821-458C-9153-E418F482139E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1F8DCE1-B579-464A-873A-59E0695042BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1F8DCE1-B579-464A-873A-59E0695042BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1F8DCE1-B579-464A-873A-59E0695042BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1F8DCE1-B579-464A-873A-59E0695042BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

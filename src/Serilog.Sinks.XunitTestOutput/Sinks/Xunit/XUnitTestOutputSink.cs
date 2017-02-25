@@ -1,17 +1,24 @@
-﻿namespace Serilog.Sinks.XunitTestOutput
+﻿// ReSharper disable once CheckNamespace
+
+using System;
+using System.IO;
+using Serilog.Core;
+using Serilog.Events;
+using Serilog.Formatting;
+using Xunit.Abstractions;
+
+// ReSharper disable once CheckNamespace
+namespace Serilog.Sinks.XunitTestOutput
 {
-    using Serilog.Core;
-    using Serilog.Events;
-    using Serilog.Formatting;
-    using System;
-    using System.IO;
-    using Xunit.Abstractions;
-
-    public class XUnitTestOutputSink: ILogEventSink
+    /// <summary>
+    ///     Captures serilog log events to xUnit output
+    /// </summary>
+    public class XUnitTestOutputSink : ILogEventSink
     {
-        readonly ITestOutputHelper _output;
-        readonly ITextFormatter _textFormatter;
+        private readonly ITestOutputHelper _output;
+        private readonly ITextFormatter _textFormatter;
 
+        /// <summary>ctor</summary>
         public XUnitTestOutputSink(ITestOutputHelper testOutputHelper, ITextFormatter textFormatter)
         {
             if (testOutputHelper == null) throw new ArgumentNullException("testOutputHelper");
@@ -21,6 +28,7 @@
             _textFormatter = textFormatter;
         }
 
+        /// <inheritdoc />
         public void Emit(LogEvent logEvent)
         {
             if (logEvent == null) throw new ArgumentNullException("logEvent");
