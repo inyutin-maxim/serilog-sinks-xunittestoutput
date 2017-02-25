@@ -7,7 +7,7 @@
     <projectUrl>https://github.com/marhoily/serilog-sinks-xunittestoutput</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Capture serilog log events to xUnit output</summary>
-    <description/>
+    <description>Capture serilog log events to xUnit output</description>
     <tags>serilog xunit ITestOutputHelper</tags>
   </metadata>
   <files>
