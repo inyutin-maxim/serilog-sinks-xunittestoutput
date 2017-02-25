@@ -1,7 +1,7 @@
 # Serilog.Sinks.XunitTestOutput
 Capture serilog log events to xUnit output
 
-[![NuGet](https://img.shields.io/nuget/v/Serilog.Sinks.XunitTestOutput.svg)](https://www.nuget.org/packages/Serilog.Sinks.XunitTestOutput/1.0.6)
+[![NuGet](https://img.shields.io/nuget/v/Serilog.Sinks.XunitTestOutput.svg)](https://www.nuget.org/packages/Serilog.Sinks.XunitTestOutput)
 
 [![build](https://ci.appveyor.com/api/projects/status/github/marhoily/serilog-sinks-xunittestoutput?svg=true)](https://ci.appveyor.com/project/marhoily/serilog-sinks-xunittestoutput)
 
