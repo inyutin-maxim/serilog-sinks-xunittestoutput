@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<dependency xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Serilog.Sinks.XunitTestOutput</id>
     <version>$version$</version>
@@ -20,4 +20,4 @@
       <dependency id="xunit.abstractions" version="2.0.1" />
     </group>
   </dependencies>
-</dependency>
+</package>
