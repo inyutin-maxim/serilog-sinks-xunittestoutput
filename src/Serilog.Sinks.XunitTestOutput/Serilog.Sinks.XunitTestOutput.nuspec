@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<dependency xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Serilog.Sinks.XunitTestOutput</id>
     <version>$version$</version>
@@ -15,7 +15,43 @@
     <file src="bin\Release\Serilog.Sinks.XunitTestOutput.XML" target="lib\net452\Serilog.Sinks.XunitTestOutput.XML" />
   </files>
   <dependencies>
-    <dependency id="xunit" version="2.2.0" />
+    <dependency id="Microsoft.NETCore.Platforms" version="1.1.0" />
+    <dependency id="NETStandard.Library" version="1.6.1" />
     <dependency id="Serilog" version="2.4.0" />
+    <dependency id="System.Collections" version="4.3.0" />
+    <dependency id="System.Collections.Concurrent" version="4.3.0" />
+    <dependency id="System.Diagnostics.Debug" version="4.3.0" />
+    <dependency id="System.Diagnostics.Tools" version="4.3.0" />
+    <dependency id="System.Diagnostics.Tracing" version="4.3.0" />
+    <dependency id="System.Globalization" version="4.3.0" />
+    <dependency id="System.IO" version="4.3.0" />
+    <dependency id="System.IO.Compression" version="4.3.0" />
+    <dependency id="System.Linq" version="4.3.0" />
+    <dependency id="System.Linq.Expressions" version="4.3.0" />
+    <dependency id="System.Net.Http" version="4.3.1" />
+    <dependency id="System.Net.Primitives" version="4.3.0" />
+    <dependency id="System.ObjectModel" version="4.3.0" />
+    <dependency id="System.Reflection" version="4.3.0" />
+    <dependency id="System.Reflection.Extensions" version="4.3.0" />
+    <dependency id="System.Reflection.Primitives" version="4.3.0" />
+    <dependency id="System.Resources.ResourceManager" version="4.3.0" />
+    <dependency id="System.Runtime" version="4.3.0" />
+    <dependency id="System.Runtime.Extensions" version="4.3.0" />
+    <dependency id="System.Runtime.InteropServices" version="4.3.0" />
+    <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
+    <dependency id="System.Runtime.Numerics" version="4.3.0" />
+    <dependency id="System.Text.Encoding" version="4.3.0" />
+    <dependency id="System.Text.Encoding.Extensions" version="4.3.0" />
+    <dependency id="System.Text.RegularExpressions" version="4.3.0" />
+    <dependency id="System.Threading" version="4.3.0" />
+    <dependency id="System.Threading.Tasks" version="4.3.0" />
+    <dependency id="System.Xml.ReaderWriter" version="4.3.0" />
+    <dependency id="System.Xml.XDocument" version="4.3.0" />
+    <dependency id="xunit" version="2.2.0" />
+    <dependency id="xunit.abstractions" version="2.0.1" />
+    <dependency id="xunit.assert" version="2.2.0" />
+    <dependency id="xunit.core" version="2.2.0" />
+    <dependency id="xunit.extensibility.core" version="2.2.0" />
+    <dependency id="xunit.extensibility.execution" version="2.2.0" />
   </dependencies>
-</package>
+</dependency>
