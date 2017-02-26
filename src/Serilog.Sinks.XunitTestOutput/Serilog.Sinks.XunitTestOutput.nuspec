@@ -9,15 +9,16 @@
     <summary>Capture serilog log events to xUnit output</summary>
     <description>Capture serilog log events to xUnit output</description>
     <tags>serilog xunit ITestOutputHelper</tags>
+    <dependencies>
+      <group targetFramework="net45">
+        <dependency id="Serilog" version="2.4.0" />
+        <dependency id="xunit.abstractions" version="2.0.1" />
+      </group>
+    </dependencies>
   </metadata>
   <files>
     <file src="bin\Release\Serilog.Sinks.XunitTestOutput.dll" target="lib\net452\Serilog.Sinks.XunitTestOutput.dll" />
     <file src="bin\Release\Serilog.Sinks.XunitTestOutput.XML" target="lib\net452\Serilog.Sinks.XunitTestOutput.XML" />
   </files>
-  <dependencies>
-    <group targetFramework="net45">
-      <dependency id="Serilog" version="2.4.0" />
-      <dependency id="xunit.abstractions" version="2.0.1" />
-    </group>
-  </dependencies>
+
 </package>
